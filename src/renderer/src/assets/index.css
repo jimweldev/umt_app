@@ -1,0 +1,57 @@
+.sidebar,
+.sidebar-content {
+  background-color: #085ca8 !important;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
+}
+
+.dropdown-menu {
+  margin: 0 !important;
+}
+@media only screen and (max-width: 575px) {
+  .dropdown-menu-lg {
+    min-width: calc(100% - 20px) !important;
+    right: 10px !important;
+  }
+}
+.object-fit-cover {
+  object-fit: cover;
+}
+img,
+iframe {
+  max-width: 100%;
+  display: block;
+}
+.login {
+  max-width: 400px;
+}
+.form-control.invalid {
+  border-color: #dc3545;
+}
+.form-control.invalid:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
+}
+.rotate {
+  animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+/* PAGINATION */
+.pagination .page-link {
+  text-decoration: none;
+}
+
+.ellipsis {
+  text-overflow: ellipsis; /* enables ellipsis */
+  white-space: nowrap; /* keeps the text in a single line */
+  overflow: hidden; /* keeps the element from overflowing its parent */
+}

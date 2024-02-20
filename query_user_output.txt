@@ -1,0 +1,2 @@
+ USERNAME              SESSIONNAME        ID  STATE   IDLE TIME  LOGON TIME
+>jimwel-dizon          console            54  Active      11:22  1/12/2024 6:52 AM
